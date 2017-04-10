@@ -40,12 +40,12 @@ body {
 
 /* HEADER*/
 .header {
-  background-color: black;
+  background-color: #000;
 }
 .logo {
   float: left;
   text-transform: uppercase;
-  color: white;
+  color: #ffffff;
   margin-top: 20px;
   margin-left: 30px;
   font-weight: bolder;
@@ -53,7 +53,7 @@ body {
 .menu {
   float: right;
   text-transform: uppercase;
-  color: white;
+  color: #ffffff;
   margin-right: 30px;
 }
 span {
@@ -74,11 +74,11 @@ ul {
 }
 a {
   text-decoration: none;
-  color: white;
+  color: #ffffff;
   text-transform: uppercase;
 }
 .sub-menu li {
-  background-color: black;
+  background-color: #000;
   display: list-item;
   position: relative;
 }
@@ -100,7 +100,7 @@ ul.sub-menu {
 	height: 0;
 	border-left: 20px solid transparent;
 	border-right: 20px solid transparent;
-	border-bottom: 20px solid black;
+	border-bottom: 20px solid #000;
 	margin-left: 10px;
   position: absolute;
   top: 5px;
@@ -166,7 +166,7 @@ span.arrow-right {
 }
 .button a {
   text-transform: uppercase;
-  color: white;
+  color: #ffffff;
   text-decoration: none;
   font-size: 18px;
   position: relative;
@@ -193,7 +193,7 @@ div.button:hover {
 
 /* PRODUCTS */
 .products {
-  background-color: white;
+  background-color: #ffffff;
   padding-top: 30px;
 }
 .box {
@@ -234,7 +234,7 @@ p.p-products {
   font-size: 13px;
 }
 #box-text {
-  border: 1px solid grey;
+  border: 1px solid #7e7c7c;
   height: 230px;
   padding: 15px;
 }
@@ -268,7 +268,7 @@ h2::after {
   position: relative;
 }
 #price2-title {
-  color: white;
+  color: #ffffff;
 }
 
 .box1::after,
@@ -278,7 +278,7 @@ h2::after {
   height: 60px;
   width: 60px;
   border-radius: 100%;
-  background-color: white;
+  background-color: #ffffff;
   border: 2px solid #C1C6C6;
   left: 135px;
   top: -30px;
@@ -319,7 +319,7 @@ h2::after {
   height: 30px;
   width: 30px;
   border-radius: 100%;
-  background-color: white;
+  background-color: #ffffff;
   left: 152px;
   top: -12px;
   z-index: 3;
@@ -338,7 +338,7 @@ p.plan_1_3, p.plan_2  {
   height: 130px;
   width: 130px;
   border-radius: 100%;
-  background-color: white;
+  background-color: #ffffff;
   margin: auto;
   padding: 0.5px;
 }
@@ -350,11 +350,11 @@ p.plan_1_3, p.plan_2  {
   vertical-align: super;
 }
 .price-number .index1, .price-number .index3 {
-  color: grey;
+  color: #7e7c7c;
 }
 .price-number {
   font-size: 38px;
-  color: grey;
+  color: #7e7c7c;
   text-align: center;
   position: relative;
   top: 10%;
@@ -368,7 +368,7 @@ p.plan_1_3, p.plan_2  {
   position: relative;
   bottom: 25%;
   transform: translateY(-65%);
-  color: grey;
+  color: #7e7c7c;
   font-weight: bolder;
 }
 
@@ -377,7 +377,7 @@ p.plan_1_3, p.plan_2  {
   list-style: none;
   text-align: center;
   padding: 10px 0;
-  color: grey;
+  color: #7e7c7c;
 }
 
 li {
@@ -390,7 +390,7 @@ li {
   background-color: #EBEBE5
 }
 .box2 ul li:nth-child(2n+1) {
-  background-color: white;
+  background-color: #ffffff;
 }
 
 .button-price, .button-price2 {
@@ -412,7 +412,7 @@ li {
 }
 
 .button-price2 {
-  background-color: white;
+  background-color: #ffffff;
   position: absolute;
   margin-top: 42px;
 }
@@ -422,7 +422,7 @@ li {
 }
 .button-price a {
   text-decoration: none;
-  color: white;
+  color: #ffffff;
   text-transform: uppercase;
   font-size: 22px;
   position: relative;
@@ -452,7 +452,7 @@ li {
   vertical-align: top;
 }
 .application h3 {
-  color: black; /*#575757;*/
+  color: #000;
   font-size: 20px;
 }
 .form {
@@ -462,7 +462,7 @@ li {
   border:1px solid #27c7ab;
   width: 320px;
   height:38px;
-  background-color: white;
+  background-color: #ffffff;
   margin-top:22px;
   padding: 8px 12px;
   position: relative;
@@ -538,7 +538,7 @@ li {
     margin-bottom: 20px;
 }
 .summary_panel {
-  background-color: white;
+  background-color: #ffffff;
   width:96%;
   height:255px;
   padding:10px;
@@ -546,7 +546,7 @@ li {
 }
 .application .green_button {
   background-color: #27c7ab;
-  color: white;
+  color: #ffffff;
   text-align:center;
   text-transform: uppercase;
   width: 320px;
@@ -623,11 +623,11 @@ li {
   display:block;
   position: absolute;
   right: 14px;
-  top: 20px;
+  top: 14px;
   cursor: pointer;
 }
 .list_panel {
-  background-color: white;
+  background-color: #ffffff;
   border: 1px solid #ccc;
   width: 288px;
   padding-left: 15px;
@@ -654,7 +654,7 @@ li {
 
 /* CONTACT FORM */
 .contact {
-  background-color: white;
+  background-color: #ffffff;
 }
 .form {
   float: left;
@@ -685,8 +685,11 @@ input {
   padding: 10px;
   border: 1px solid #27c7ab;
   font-size: 26px;
-  color: grey;
+  color: #cecece;
   margin-bottom: 15px;
+}
+input::placeholder {
+  color: #cecece;
 }
 #textarea {
   height: 120px;
@@ -703,12 +706,7 @@ fieldset {
   padding: 3px;
   margin-left: -20px;
 }
-p.agree {
-  padding-left: 10px;
-  font-size: 17px;
-  display: inline-block;
-  width: 260px;
-}
+
 input#submit {
   background-color: #27c7ab;
   width: 320px;
@@ -719,7 +717,7 @@ input#submit {
   margin-left: -20px;
   cursor: pointer;
   text-transform: uppercase;
-  color: white;
+  color: #ffffff;
   text-align: center;
   font-size: 20px;
   transition: 0.2s transform linear;
@@ -730,9 +728,44 @@ input#submit:hover {
   box-shadow: 0 5px 15px #939f9d;
 }
 
+input.hidden {
+  display: block;
+  opacity: 0;
+  height: 48px;
+  position: absolute;
+  width: 48px;
+  cursor: pointer;
+  z-index: 2;
+}
+p.agree {
+  padding-left: 60px;
+  font-size: 15px;
+  /*display: inline-block;*/
+  width: 260px;
+  position: relative;
+}
+p.agree::before, p.agree::after {
+  border: 1px solid #27c7ab;
+  content: "";
+  display: block;
+  left: 0;
+  height: 48px;
+  position: absolute;
+  width: 48px;
+  top: 0;
+}
+p.agree::after {
+  background: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%20preserveAspectRatio%3D%22xMidYMid%22%20width%3D%2233.875%22%20height%3D%2233%22%20viewBox%3D%220%200%2033.875%2033%22%3E%0A%20%20%3Cpath%20d%3D%22M9.470%2C15.209%20L14.061%2C24.104%20C14.061%2C24.104%2021.522%2C6.026%2033.287%2C-0.000%20C33.000%2C4.304%2031.852%2C8.035%2033.861%2C12.626%20C28.696%2C13.774%2018.078%2C26.687%2014.635%2C33.000%20C9.756%2C26.974%204.017%2C22.382%20-0.000%2C20.948%20L9.470%2C15.209%20Z%22%20fill%3D%22%2327c7ab%22/%3E%0A%3C/svg%3E%0A") no-repeat center;
+  border: 0;
+  display: none;
+}
+.acceptation input:checked + .agree::after {
+  display: block;
+}
+
 /* FOOTER */
 footer {
-  background-color: white;
+  background-color: #ffffff;
   padding-top: 40px;
   padding-bottom: 50px;
 }
@@ -752,7 +785,7 @@ footer {
   text-transform: uppercase;
   font-size: 16px;
   padding-top: 10px;
-  color: grey;
+  color: #7e7c7c;
   font-weight: bolder;
   margin-left: 60px;
 }
