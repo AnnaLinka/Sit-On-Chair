@@ -1,7 +1,10 @@
 # Sit-On-Chair
 PSD template for e-shop with chairs.
 
+
 My first website ever, made after first week of coding bootcamp. Not RWD yet. After second week were added JS functions.
+https://annalinka.github.io/Sit-On-Chair/
+
 
 ## Built With
 
